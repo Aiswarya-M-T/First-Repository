@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <title>Remove elements</title>
+    <link rel="stylesheet" href="./assets/CSS/bootstrap.css">
+    <script src="./assets/JS/index.js"></script>
+</head>
+<body>
+    <form class="container p-5 my-5 text-center bg-light bg-gradient border border-secondary rounded">
+        <h2 class="fst-italic">Remove element from the list</h2>
+        <div>
+            <label class="p-3 fst-italic">User Input</label>
+        </div>
+        <div>
+            <input type="text" id="userInput" name="userInput" class="p-2 w-50 bg-body rounded">
+        </div>
+        <div>
+            <label class="p-3 fst-italic">Position</label>
+        </div>
+        <div>
+            <input type="text" id="position" name="position" class="p-2 w-50 bg-body rounded">
+        </div>
+        <div class="text-danger">
+            <p id="validate"></p>
+        </div>
+        <div class="text-success">
+            <p id="list"></p>
+            <p id="result"></p>
+        </div>
+        <div class="p-3">
+            <button type="button" class="btn btn-success btn-lg px-3 mx-2" name="submitButton" onclick="removeElement()">Submit</button>
+            <button class="btn btn-secondary btn-lg px-3 mx-2" name="resetButton" onclick="clearForm()">Reset</button>
+        </div>
+    </form>
+</body>
+</html>

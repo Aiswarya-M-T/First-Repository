@@ -1,0 +1,6 @@
+#red{
+    filter: hue-rotate(143deg);
+}
+#green{
+    filter: hue-rotate(251deg);
+}

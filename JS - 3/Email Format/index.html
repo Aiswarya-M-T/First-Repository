@@ -1,0 +1,87 @@
+<html>
+<head>
+    <title>Email Format</title>
+    <link rel="stylesheet" href="./assets/CSS/bootstrap.css">
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+    <script src="./assets/JS/index.js"></script>
+</head>
+<body>
+    <div id="format">
+        <div>
+            <p id="result"
+                class="container mt-5 py-2 w-50 bg-light border border-3 border-secondary rounded shadow p-3 mb-5 bg-body rounded">
+            </p>
+        </div>
+        <div class="w-50 d-md-flex justify-content-md-end ">
+            <button type="button" class="btn btn-success btn-lg px-3 mx-2" onclick="showForm()">Back</button>
+        </div>
+    </div>
+    <form id="form" class="container w-50 p-4 mt-4 text-center bg-light bg-gradient border border-secondary rounded">
+        <h2 class="fst-italic">Email Format</h2>
+        <div>
+            <label class="p-3 fst-italic">User Name</label>
+        </div>
+        <div>
+            <input type="text" name="userName" id="userName" class="p-2 w-50 bg-body rounded">
+        </div>
+        <div class="text-danger">
+            <p class="validate"></p>
+        </div>
+        <div>
+            <label class="p-3 fst-italic">Record ID</label>
+        </div>
+        <div>
+            <input type="text" name="recordId" id="recordId" class="p-2 w-50 bg-body rounded">
+        </div>
+        <div class="text-danger">
+            <p class="validate"></p>
+        </div>
+        <div>
+            <label class="p-3 fst-italic">Sender Mail ID</label>
+        </div>
+        <div>
+            <input type="text" name="senderMailId" id="sender" class="p-2 w-50 bg-body rounded">
+        </div>
+        <div class="text-danger">
+            <p class="validate"></p>
+        </div>
+        <div>
+            <label class="p-3 fst-italic">Receiver Mail ID</label>
+        </div>
+        <div>
+            <input type="text" name="receiverMailId" id="receiver" class="p-2 w-50 bg-body rounded">
+        </div>
+        <div class="text-danger">
+            <p class="validate"></p>
+        </div>
+        <div>
+            <label class="p-3 fst-italic">CC Mail ID</label>
+        </div>
+        <div>
+            <input type="text" name="ccMailId" id="ccMail" class="p-2 w-50 bg-body rounded">
+        </div>
+        <div class="text-danger">
+            <p class="validate"></p>
+        </div>
+        <div>
+            <label class="p-3 fst-italic">Comments</label>
+        </div>
+        <div>
+            <input type="text" name="comments" id="comments" class="p-2 w-50 bg-body rounded">
+        </div>
+        <div class="text-danger">
+            <p class="validate"></p>
+        </div>
+        <div>
+            <label class="p-3 fst-italic">Changed Status</label>
+        </div>
+        <div>
+            <input type="checkbox" name="checkBox" id="checkBox">
+        </div>
+        <div class="p-3">
+            <button type="button" class="btn btn-primary btn-lg px-3 mx-2" onclick="emailFormat()">Submit</button>
+            <button class="btn btn-secondary btn-lg px-3 mx-2" onclick="clearForm()">Reset</button>
+        </div>
+    </form>
+</body>
+</html>

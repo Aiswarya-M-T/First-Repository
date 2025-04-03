@@ -1,0 +1,23 @@
+<html>
+<head>
+    <title>Radio Button</title>
+    <link rel="stylesheet" href="./assets/CSS/bootstrap.css">
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+    <script src="./assets/JS/index.js"></script>
+</head>
+<body>
+    <div
+        class="container p-5 w-50 my-5 text-center bg-light bg-gradient border border border-3 border-secondary rounded">
+        <h2 class="fst-italic p-2">Radio Buttons</h2>
+        <input type="radio" value="red" id="red" name="button" onchange="radioButton('red')">
+        <label class="mx-2">Red</label>
+        <input type="radio" value="green" id="green" name="button" onchange="radioButton('green')">
+        <label class="m-2">Green</label>
+        <input type="radio" value="blue" id="blue" name="button" onchange="radioButton('blue')">
+        <label class="m-2">Blue</label>
+        <div class="text-success">
+            <p id="result"></p>
+        </div>
+    </div>
+</body>
+</html>
