@@ -1,0 +1,42 @@
+<html>
+<head>
+    <link rel="stylesheet" href="./assets/CSS/bootstrap.css">
+    <script src="./assets/JS/script.js"></script>
+    <title>Add & Remove element in an array</title>
+</head>
+<body>
+    <form class="container my-5 text-center bg-light bg-gradient border border-secondary rounded border-3 w-50">
+        <h2 class="p-2 my-2 text-muted">Add & Remove element in an array</h2>
+        <div>
+            <label class="p-3 fst-italic">User Input</label>
+        </div>
+        <div>
+            <input type="text" id="userInput" class="p-2 w-50 bg-body rounded" name="userInput">
+        </div>
+        <div>
+            <label class="p-3 fst-italic">Position</label>
+        </div>
+        <div>
+            <input type="text" name="position" id="position" class="p-2 w-50 bg-body rounded">
+        </div>
+        <div>
+            <label class="p-3 fst-italic" id="result-label">New Element</label>
+        </div>
+        <div>
+            <input type="text" name="result" class="p-2 w-50 bg-body rounded" id="element">
+        </div>
+        <div class="text-danger">
+            <p id="validate"></p>
+        </div>
+        <div class="text-success">
+            <p id="result"></p>
+        </div>
+        <div class="p-3 my-2">
+            <button type="button" class="btn btn-success btn-lg px-3 mx-5 shadow mb-2"
+                onclick="arrayCreation()">Submit</button>
+            <button type="button" class="btn btn-light btn-lg px-3 mx-5 shadow mb-2"
+                onclick="clearForm()">Reset</button>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<html>
+<head>
+    <link rel="stylesheet" href="./assets/CSS/bootstrap.css">
+    <script src="./assets/JS/script.js"></script>
+    <title>Check Box</title>
+</head>
+<body>
+    <form
+        class="container my-5 text-center border border-secondary rounded border-3 w-50 shadow-lg p-3 mb-5 bg-body rounded ">
+        <h2 class="p-2 my-2 text-muted">Check Box List</h2>
+        <div class="row my-3">
+            <div class="col">
+                <input type="checkbox" name="asia" class="check">
+                <label>Asia</label>
+            </div>
+            <div class="col">
+                <input type="checkbox" name="europe" class="check">
+                <label>Europe</label>
+            </div>
+            <div class="col">
+                <input type="checkbox" name="australia" class="check">
+                <label>Australia</label>
+            </div>
+            <div class="col">
+                <input type="checkbox" name="africa" class="check">
+                <label>Africa</label>
+            </div>
+            <div class="col">
+                <input type="checkbox" name="antarctica" class="check">
+                <label>Antarctica</label>
+            </div>
+        </div>
+        <div class="my-4 row">
+            <button type="button" class="btn btn-success btn-lg text-center mx-5 shadow mb-2 col"
+                onclick="checkBox('checkAll')">Check
+                All</button>
+            <button type="button" class="btn btn-danger btn-lg text-center mx-5 shadow mb-2 col"
+                onclick="checkBox('uncheckAll')">Uncheck
+                All</button>
+            <button type="button" class="btn btn-warning btn-lg text-center mx-5 shadow mb-2 col"
+                onclick="checkBox('unselect')">Unselect</button>
+        </div>
+    </form>
+</body>
+</html>

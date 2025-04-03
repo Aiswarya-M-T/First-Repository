@@ -1,0 +1,22 @@
+body {
+    background: linear-gradient(#e2a5dd, #dcd791);
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input[type="text"] {
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #b7b7b7;
+    align-items: center;
+}
+.width {
+    width: 71%;
+}
+.input-width {
+    width: 75%;
+
+}

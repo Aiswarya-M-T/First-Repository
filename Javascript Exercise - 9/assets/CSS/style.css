@@ -1,0 +1,24 @@
+#color{
+    background-color: #cee496;
+}
+.sample{
+    margin: auto;
+}
+.table-position{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.table-background{
+    background-color: #1e90ff;
+}
+.table-cell{
+    background-color: white;
+}
+.table-head{
+    display: inline-block;
+    background-color: white;
+}
+.text-color{
+    color: blueviolet;
+}

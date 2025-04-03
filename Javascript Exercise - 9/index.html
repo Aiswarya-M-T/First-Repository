@@ -1,0 +1,104 @@
+<html>
+<head>
+    <title>Date and Time</title>
+    <link rel="stylesheet" href="./assets/CSS/bootstrap.css">
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+    <script src="./assets/JS/script.js"></script>
+</head>
+<body>
+    <div class="container w-50 my-5 p-3 text-center border-light rounded shadow" id="color">
+        <img class="h-25 w-100 mt-2" src="./assets/Images/calender.jpg" alt="calender">
+        <h3 class="my-2">Current Date & Time of Your System</h3>
+        <button class="btn btn-success btn-lg px-3 mx-5 my-2" onclick="dateTime()">Show</button>
+        <button class="btn btn-warning btn-lg px-3 mx-5 my-2" onclick="clearDateTime()">Clear</button>
+        <div class="content">
+            <div
+                class="row row-cols-auto mt-2 table-background my-2 g-2 w-100 d-flex justify-content-around ">
+                <div class="col-1 mb-2 g-2">
+                    <div class="table-cell mb-2 text-danger">
+                        <label>Year</label>
+                    </div>
+                    <div>
+                        <input type="text" id="year" class="text-center table-cell w-100" disabled>
+                    </div>
+                </div>
+                <div class="col-1 mb-2 g-2">
+                    <div class="table-cell mb-2 text-danger">
+                        <label>Month</label>
+                    </div>
+                    <div>
+                        <input type="text" id="month" class="text-center table-cell w-100" disabled>
+                    </div>
+                </div>
+                <div class="col-1 mb-2 g-2">
+                    <div class="table-cell mb-2 text-danger">
+                        <label>Date</label>
+                    </div>
+                    <div>
+                        <input type="text" id="date" class="text-center table-cell w-100" disabled>
+                    </div>
+                </div>
+                <div class="col-1 mb-2 g-2">
+                    <div class="table-cell mb-2 text-danger">
+                        <label>Hour</label>
+                    </div>
+                    <div>
+                        <input type="text" id="hour" class="text-center table-cell w-100" disabled>
+                    </div>
+                </div>
+                <div class="col-1 mb-2 g-2">
+                    <div class="table-cell mb-2 text-danger">
+                        <label>Minute</label>
+                    </div>
+                    <div>
+                        <input type="text" id="minute" class="text-center table-cell w-100" disabled>
+                    </div>
+                </div>
+                <div class="col-1 mb-2 g-2">
+                    <div class="table-cell mb-2 text-danger">
+                        <label>Seconds</label>
+                    </div>
+                    <div>
+                        <input type="text" id="seconds" class="text-center table-cell w-100" disabled>
+                    </div>
+                </div>
+                <div class="col-1 mb-2 g-2">
+                    <div class="table-cell mb-2 text-danger">
+                        <label>Millisec</label>
+                    </div>
+                    <div>
+                        <input type="text" id="millisec" class="text-center table-cell w-100" disabled>
+                    </div>
+                </div>
+            </div>
+            <h3 class="my-2">GMT + 0530 (Indian Standard Time)</h3>
+            <div>
+                <div class="row mt-3 mb-3 g-2 table-position table-background ">
+                    <div class="col-md-6 mb-2  table-cell text-color">
+                        <label>Local Date & Time</label>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                        <input type="text" id="localDateTime" class="w-100 text-center table-cell" disabled>
+                    </div>
+                </div>
+                <div class="row mb-3 g-2 table-position table-background">
+                    <div class="col-md-6 mb-2 w-50 table-cell text-color">
+                        <label>UTC</label>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                        <input type="text" id="utc" class="w-100 text-center table-cell" disabled>
+                    </div>
+                </div>
+                <div class="row mb-3 g-2 table-position table-background ">
+                    <div class="col-md-6 mb-2 table-cell text-color">
+                        <label>UTC Milliseconds</label>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                        <input type="text" id="utcMillisec" class="w-100 text-center table-cell" disabled>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
