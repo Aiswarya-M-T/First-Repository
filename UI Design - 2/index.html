@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <title>Registration</title>
+</head>
+<body>
+    <div class="form">
+        <div class="mainForm">
+            <div class="image">
+                <div class="logo">
+                    <img src="./assets/images/image.jpg" alt="image">
+                </div>
+                <div class="imageText">
+                    <h1>REGISTER NOW</h1>
+                    <h2>While seats are available !</h2>
+                </div>
+            </div>
+            <div class="content">
+                <div class="row">
+                    <div class="field">
+                        <label class="name-label">FIRST NAME <span class="mandatory">*</span></label>
+                        <input class="inputBox" type="text">
+                    </div>
+                    <div class="field">
+                        <div class="lunch">
+                            <div>
+                                <label class="fieldSecton name-label">MEAL PREFERENCE</label>
+                            </div>
+                            <div class="lunchDetail">
+                                <span class="underline">Lunch detail</span>
+                            </div>
+                        </div>
+                        <div>
+                            <select class="rightInputBox" name="meal" id="meal">
+                                <option value="Vegetarian">Vegetarian</option>
+                                <option value="Non Vegetarian">Non Vegetarian</option>
+                            </select>
+                            <div class="triangle-down"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="field">
+                        <label class="name-label">LAST NAME <span class="mandatory">*</span></label>
+                        <input class="inputBox" type="text">
+                    </div>
+                    <div class="field">
+                        <div class="payment">
+                            <div>
+                                <label class="fieldSection name-label">PAYMENT MODE</label>
+                            </div>
+                            <div class="centre">
+                                <span class="underline">Payment Detail</span>
+                            </div>
+                        </div>
+                        <div class="radio">
+                            <div class="radio-button">
+                                <label for="cash" class="radioFont">
+                                    <input class="radio" type="radio" name="amount">Cash
+                                </label>
+                                <label for="cheque" class="radioFont">
+                                    <input class="radio cheque" type="radio" name="amount">Cheque
+                                </label>
+                                <label for="demand-draf" class="radioFont">
+                                    <input class="radio cheque" type="radio" name="amount">Demand Draf
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="field">
+                        <label class="name-label">COMPANY <span class="mandatory">*</span></label>
+                        <input class="inputBox" type="text">
+                    </div>
+                    <div class="field">
+                        <label class="fieldSection name-label">DD/CHEQUE NO.</label>
+                        <input class="rightInputBox" type="text" name="dd" id="dd">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="field">
+                        <label class="name-label">EMAIL <span class="mandatory">*</span></label>
+                        <input class="inputBox" type="email">
+                    </div>
+                    <div class="field">
+                        <label class="fieldSection name-label">DRAWN ON(BANK NAME)</label>
+                        <input class="rightInputBox" type="text">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="field">
+                        <label class="name-label">PHONE NUMBER <span class="mandatory">*</span></label>
+                        <input class="inputBox" type="text">
+                    </div>
+                    <div class="field">
+                        <label class="fieldSection name-label">PAYABLE AT</label>
+                        <input class="rightInputBox" type="text">
+                    </div>
+                </div>
+                <div class="donateUs">
+                    <label class="name-label">DONATE US</label>
+                    <div class="rangeInput">
+                        <input class="range" type="range" value="50">
+                        <img class="imageRange" src="./assets/images/range.png" alt="rangevalue">
+                    </div>
+                </div>
+                <div class="onclick">
+                    <button class="submit">SUBMIT</button>
+                    <button class="reset">RESET</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

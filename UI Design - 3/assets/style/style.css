@@ -1,0 +1,137 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.form,
+.rangeLength,.selectWidth {
+    width: 100%;
+}
+.mainForm {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 25%;
+}
+.fieldSection {
+    display: flex;
+    gap: 30px;
+}
+.rowSection {
+    display: flex;
+}
+.row {
+    border: 1px solid #ede7e7;
+    width: 50%;
+    padding: 10px;
+}
+.section {
+    width: 50%;
+    font-size: 11px;
+}
+input:focus {
+    outline: none;
+}
+.input-text {
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #ebe7e7e7;
+    margin-bottom: 20px;
+}
+.nameField,
+.commentBox {
+    padding-bottom: 20px;
+    border: 1px solid #ede7e7;
+    padding: 10px;
+}
+.selector {
+    color: #d9d4d4;
+    width: 100%;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px;
+    appearance: none;
+}
+.triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #b1b1b1;
+    position: relative;
+    right: 4.4%;
+    top: 24px;
+}
+.range {
+    accent-color: #2d266c;
+    width: 100%;
+}
+#list-property {
+    width: 100%;
+    padding: 4.6% 0%;
+    background-color: #f5f5f5;
+    border: 1px;
+}
+.dateOfBirth {
+    width: 100%;
+    display: flex;
+}
+.calender {
+    width: 20px;
+    height: 21px;
+    position: relative;
+    left: 3%;
+}
+#dob {
+    width: 25%;
+}
+.address {
+    border: 1px solid #ede7e7;
+    padding: 10px;
+}
+.currentAddress{
+    padding-bottom: 15px;
+}
+.button {
+    background-color: #2d266c;
+    color: white;
+    width: 100%;
+    border-color: #2d266c;
+    border-radius: 3px;
+    box-sizing: border-box;
+    height: 4.3%;
+    padding: 7px;
+    margin-bottom: 20px;
+}
+.text-slider {
+    display: flex;
+    width: 100%;
+    color: #2d266c;
+    padding-top: 10px;
+}
+.number{
+    padding: 10px;
+}
+.text {
+    text-align: right;
+    padding-right: 4%;
+    color: #2d266c;
+}
+.arrow{
+    position: relative;
+    right: 100%;
+}
+.selectArrow{
+    display: flex;
+    appearance: none;
+}
+.place{
+    word-spacing: 20px;
+}

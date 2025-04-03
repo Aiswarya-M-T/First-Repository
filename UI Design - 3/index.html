@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Real Estate</title>
+    <link rel="stylesheet" href="./assets/style/style.css">
+</head>
+<body>
+    <div class="form">
+        <div class="mainForm">
+            <img src="./assets/images/real estate.png" alt="logo" class="image">
+            <div class="rowSection">
+                <div class="row">
+                    <span>First name?*</span>
+                    <input type="text" name="firstName" class="input-text">
+                </div>
+                <div class="row">
+                    <span>Last name*</span>
+                    <input type="text" name="lastName" class="input-text">
+                </div>
+            </div>
+            <div class="nameField">
+                <span>Email address*</span>
+                <input type="email" name="email" class="input-text">
+            </div>
+            <div class="nameField">
+                <span>Phone contact*</span>
+                <input type="text" name="phone-number" class="input-text">
+            </div>
+            <div class="address">
+                <div class="fieldSection">
+                    <span class="currentAddress">Current address*</span>
+                </div>
+                <div class="fieldSection">
+                    <div class="section">
+                        <span>Street*</span>
+                        <input type="text" name="street" class="input-text">
+                    </div>
+                    <div class="section">
+                        <span>City/Suburb</span>
+                        <input type="text" name="city" class="input-text">
+                    </div>
+                </div>
+                <div class="fieldSection">
+                    <div class="section">
+                        <span>State*</span>
+                        <input type="text" name="state" class="input-text">
+                    </div>
+                    <div class="section">
+                        <span>Zip/Post Code*</span>
+                        <input type="text" name="post" class="input-text">
+                    </div>
+                </div>
+                <div>
+                    <span>Country*</span>
+                    <input type="text" name="country" class="input-text">
+                </div>
+            </div>
+            <div class="nameField">
+                <span>Please list the property or properties of interest*</span>
+                <div>
+                    <input type="text" name="listOfProperties" id="list-property">
+                </div>
+            </div>
+            <div class="commentBox">
+                <span>When would you like a viewing?*</span>
+                <div class="dateOfBirth">
+                    <input type="text" placeholder="DD / MM / YYYY" class="input-text place" id="dob">
+                    <img src="./assets/images/calen.png" alt="calender" class="calender">
+                </div>
+            </div>
+            <div class="commentBox">
+                <span>Preference of location?*</span>
+                <div class="selectArrow">
+                    <div class="selectWidth">
+                        <select name="select" class="selector">
+                            <option value="select">Select...</option>
+                        </select>
+                    </div>
+                    <div class="triangle-down"></div>
+                </div>
+            </div>
+            <div class="commentBox">
+                <span>What kind of property are you looking for?*</span>
+                <div class="selectArrow">
+                    <div class="selectWidth">
+                        <select name="select" class="selector">
+                            <option value="select">Select...</option>
+                        </select>
+                    </div>
+                    <div class="triangle-down"></div>
+                </div>
+            </div>
+            <div class="commentBox">
+                <span>What is your budget?*</span>
+                <div class="selectArrow">
+                    <div class="selectWidth">
+                        <select name="select" class="selector">
+                            <option value="select">Select...</option>
+                        </select>
+                    </div>
+                    <div class="triangle-down"></div>
+                </div>
+            </div>
+            <div class="commentBox">
+                <span>Addtional comments or requests*</span>
+                <div class="text">100</div>
+                <div class="text-slider">
+                    <div>
+                        <span class="number">50000</span>
+                    </div>
+                    <div class="rangeLength">
+                        <input type="range" class="range" min="0" max="100" value="100">
+                    </div>
+                    <div>
+                        <span class="number">100</span>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button class="button">Submit now</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
